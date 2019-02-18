@@ -1,0 +1,41 @@
+.infoCard {	
+	height: 100%;
+	width: 100%;
+}
+
+.infoRoot {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.servingsLabel {
+	margin-right: 10px;
+}
+
+.servingsCounter {
+margin-right: 1px;
+width: 30px;
+}
+
+
+.infoColumn {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.avatar {
+	margin-left: 15px;
+}
+
+.authorName {
+	margin-left: 5px;
+}
+
+.authorName:hover {
+  cursor:pointer;
+  color: #3f51b5;
+}

@@ -1,0 +1,7 @@
+.filters-root {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}

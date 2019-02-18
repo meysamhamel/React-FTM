@@ -1,0 +1,12 @@
+p.ingredients-title {
+  font-size: 1.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  color: #3f51b5;
+}
+
+p .servings {
+  font-size: .6em;
+  color: gray;
+  padding-left: 1em;
+}

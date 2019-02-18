@@ -1,0 +1,79 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 365px 60px (50px, auto);
+  grid-template-areas:
+    ". . logo . ."
+    ". search search search ."
+    ". chips chips chips ."
+    ". filters filters filters ."
+    ". results results results .";
+    grid-auto-rows: min-content;
+}
+
+.logo {
+  grid-area: logo;
+  padding: 0px 0px 0px 0px;
+}
+
+.search-box {
+	height: 100%;
+	padding-top: 25px;
+  grid-area: search;
+}
+
+.sspan {
+  padding: 10px;
+}
+
+.filters {
+  grid-area: filters;
+  margin: 10px 0px;
+}
+
+.search-results {
+  will-change: opacity;
+  height: 100%;
+  grid-area: results;
+}
+
+.search-filters {
+  width: 100%;
+  height: 50px;
+  grid-area: filters;
+  z-index: 10;
+}
+
+.search-chips {
+  padding-top: 10px;
+  grid-area: chips;
+}
+
+.test {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.filter-card {
+  width: 100vw;
+  height: 0;
+  bottom: 0;
+  position: absolute;
+  transition: height 0.25s;
+}
+
+.showFilter {
+  height: 70vh;
+}
+
+.hideFilter {
+  height: 0;
+}
+
+.close-filters {
+  float: right;
+}

@@ -1,0 +1,32 @@
+.recipeAuthor,
+.tags {
+    padding: 1em;
+    width: 50%;
+    display: flex;
+}
+
+.recipeInfo {
+    display: flex;
+}
+
+.chip {
+    width: auto;
+}
+
+.authorName,
+.time,
+.difficulty {
+  display: flex;
+  align-items: center;
+}
+
+.authorName {
+  margin-left: .5em;
+}
+
+.time,
+.difficulty {
+  font-size: .8em;
+  color: gray;
+  margin-left: 2em;
+}

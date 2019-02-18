@@ -1,0 +1,10 @@
+p.instructions-title {
+  font-size: 1.5em;
+  padding-left: 1em;
+  padding-top: 1em;
+  color: #3f51b5;
+}
+
+.instructions-list li {
+  padding-left: .75em;
+}

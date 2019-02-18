@@ -1,0 +1,63 @@
+div.title-container {
+  margin-top: 4em;
+}
+.recipe-title p {
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.pic-des-container {
+  height: 300px;
+  margin-top: 2em !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ingredients-container {
+  height: 300px;
+}
+
+.instructions-container {
+  height: 300px;
+}
+
+.picture {
+  height: 100%;
+}
+
+.description-text {
+  padding: 20px;
+}
+
+div.title-container,
+div.info {
+  height: initial;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-margin:first-of-type {
+  margin-left: 0 !important;
+}
+.btn-margin {
+  margin: 0 10px !important;
+}
+
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+.source-url {
+  font-size: 0.7em;
+  color: gray;
+}
+
+.share-btn:focus {
+  outline: none;
+}

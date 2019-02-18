@@ -1,0 +1,8 @@
+.fullSize,
+.recipe-description {
+  height: 100%;
+}
+
+.recipe-description p {
+  padding: 1em;
+}

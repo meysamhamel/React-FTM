@@ -1,0 +1,65 @@
+.login-root {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-row-gap: 30px;
+  grid-template-areas: 
+    ". social ."
+    ". user ."
+    ". pass ."
+    ". submit .";
+}
+
+.social-buttons {
+  grid-area: social;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: 
+    ". fb . gg .";
+}
+
+#fb-btn {
+  grid-area: fb;
+  background-color: #3B5998;
+  width: 220px;
+  margin: 10px;
+}
+
+#fb-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+#google-btn {
+  grid-area: gg;
+  width: 220px;
+  padding: 0px;
+  margin: 10px;
+  background-color: white;
+}
+
+#gg-logo {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  height: inherit;
+}
+
+.username {
+  grid-area: user;
+}
+
+.password {
+  grid-area: pass;
+}
+
+.submit-btn {
+  grid-area: submit;
+  width: 50px;
+  justify-self: center;
+}

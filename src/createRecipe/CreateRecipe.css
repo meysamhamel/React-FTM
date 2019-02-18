@@ -1,0 +1,91 @@
+div.title-container {
+  margin-top: 4em;
+}
+.create-recipe-container {
+  height: 300px;
+  margin-top: 2em !important;
+  max-width: 80% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.recipe-form > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ingredients-container {
+  height: 300px;
+}
+
+.instructions-container {
+  height: 300px;
+}
+
+.picture {
+  height: 100%;
+}
+
+.description-text {
+  padding: 20px;
+}
+
+div.title-container,
+div.info {
+  height: initial;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.source-url {
+  font-size: .7em;
+  color: gray;
+}
+
+.recipe-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recipe-description-card {
+  height: 100%;
+  display: flex;
+}
+.upload-pic {
+  width: 80%;
+  margin: 10px auto;
+}
+.recipe-title,
+.recipe-description {
+  width: 80% !important;
+  margin: 10px auto !important;
+}
+
+.preptime,
+.cooktime,
+.difficulty,
+.servings {
+  margin: 0 15px 10px 15px !important;
+}
+
+.ingredients {
+  margin: 1.5em !important;
+  max-width: 96%;
+}
+.instructions {
+  margin: 0 1.5em 1.5em !important;
+  max-width: 96%;
+}
+
+.create-recipe-button {
+  background: #f44336 !important;
+  color: #fff !important;
+}
+.create-recipe-button:hover {
+  background: rgba(0, 0, 0, .1) !important;
+  color: #f44336 !important;
+  transition: ease .25s;
+}

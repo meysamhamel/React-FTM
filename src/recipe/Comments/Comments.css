@@ -1,0 +1,11 @@
+.comments-title {
+  font-size: 1.5em;
+  padding-top: 1em;
+  color: #f44336;
+}
+.comment-card {
+  margin: 1em 0;
+}
+.comment-card h3 {
+  margin-top: 0;
+}
